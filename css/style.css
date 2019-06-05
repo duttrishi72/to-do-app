@@ -1,0 +1,27 @@
+body {
+    background: rgb(54, 54, 54);
+}
+#empty-space {
+    height: 80px;
+}
+#toDoList {
+    background:  rgb(54, 54, 54);
+}
+tr:nth-child(even) {
+    background:  rgb(233, 233, 233);
+}
+tr:nth-child(odd) {
+    background: rgb(196, 193, 193);
+}
+#taskInput, #addBtn {
+    top: -5px;
+    position: relative;
+}
+#editedTaskInput, #updateBtn {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+/* #dataEnter2 {
+    padding-right: 12px;
+} */
